@@ -1,10 +1,4 @@
-# E11a-Material-Tester
-
-This exercise is an opportunity for you to experiment with PBR Textures in Godot. The exercise is based on [Godot 3 Tutorial: PBR Materials](https://www.youtube.com/watch?v=pM5j8x71HcE). I will be providing some additional information about PBR Textures as part of today's lecture materials.
-
-As usual, fork and clone this repository to your computer.
-
-This exercise will invite you to adjust the materials of several sphere-like objects. Each of the objects is a mesh (called GodotBall) inside a Spatial scene. For each GodotBall, select the Mesh, and in the Inspector, select Material. For Material 0 (currently [empty]), select New Spatial Material, and then adjust the parameters as described below. The textures appear in the FileSystem panel, and can the files can be dragged from that panel to the Texture field in the inspector. 
+This is an assignment for my game design class. Here i have changed the different godot balls into different materials based on the setting below. Feel free to download and take a peek at them
 
 White Plastic
  * Metallic->Metallic: 0.4
@@ -121,7 +115,3 @@ Toon
    * Parameters->Cull Mode: Front
    * Parameters->Grow: On
    * Albedo->Color: R: 7, G: 0, B: 0, A: 255
- 
-When you have completed the exercise, run it to ensure that everything is workign correctly. This exercise also contains an excellent example of a WorldEnvironment (and how to change environments using GDScript).
-
-When you are done, commit and push your changes to Github, and turn in the URL of your repository on Canvas.
